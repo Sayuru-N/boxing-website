@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Gloves - Premium Quality</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Boxing Gloves Pro</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer premium quality boxing gloves designed for athletes who demand the best. Our gloves provide unmatched protection and comfort for all levels of training and competition.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="glove1.jpg" alt="Boxing Glove Model 1">
+            <h3>Pro Fighter Series</h3>
+            <p>High-quality leather, excellent grip, and advanced padding.</p>
+            <button onclick="showDetails('Pro Fighter Series')">Learn More</button>
+        </div>
+        <div class="product">
+            <img src="glove2.jpg" alt="Boxing Glove Model 2">
+            <h3>Elite Training Glove</h3>
+            <p>Durable, comfortable, and perfect for long training sessions.</p>
+            <button onclick="showDetails('Elite Training Glove')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Boxing Gloves Pro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
